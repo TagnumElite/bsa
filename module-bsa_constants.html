@@ -1,0 +1,2408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Module: bsa/constants | BSA Documentation</title>
+
+    <script src="scripts/prettify/prettify.js"> </script>
+    <script src="scripts/prettify/lang-css.js"> </script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link type="text/css" rel="stylesheet" href="styles/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-jsdoc.css">
+    <link type="text/css" rel="stylesheet" href="styles/prettify-tomorrow.css">
+    <link type="text/css" rel="stylesheet" href="styles/tui-doc.css">
+
+    
+</head>
+<body>
+<nav class="lnb" id="lnb">
+    <div class="logo" style="">
+        
+            <img src="img/toast-ui.png" width="100%" height="100%">
+        
+    </div>
+    <div class="title">
+        <h1><a href="index.html" class="link">BSA Documentation</a></h1>
+        
+            <span class="version">v0.1.0</span>
+        
+    </div>
+    <div class="search-container" id="search-container">
+        <input type="text" placeholder="Search">
+        <ul></ul>
+    </div>
+    
+    <div class="lnb-api hidden"><h3>Modules</h3><ul><li><a href="module-bsa.html">bsa</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa.html#~compress">compress</a></li><li><a href="module-bsa.html#~extract">extract</a></li><li><a href="module-bsa.html#~inspect">inspect</a></li><li><a href="module-bsa.html#~list">list</a></li></ul></div></li><li><a href="module-bsa_args.html">bsa/args</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/args_sub"></div></li><li><a href="module-bsa_bitwise.html">bsa/bitwise</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/bitwise_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa_bitwise.html#.get">get</a></li></ul></div></li><li><a href="module-bsa_constants.html">bsa/constants</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/constants_sub"><div class="member-type">Members</div><ul class="inner"><li><a href="module-bsa_constants.html#.F3_BSAARCHIVE_PREFIXFULLFILENAMES">F3_BSAARCHIVE_PREFIXFULLFILENAMES</a></li><li><a href="module-bsa_constants.html#.F3_BSAHEADER_VERSION">F3_BSAHEADER_VERSION</a></li><li><a href="module-bsa_constants.html#.F4_BSAHEADER_FILEID">F4_BSAHEADER_FILEID</a></li><li><a href="module-bsa_constants.html#.F4_BSAHEADER_VERSION">F4_BSAHEADER_VERSION</a></li><li><a href="module-bsa_constants.html#.MW_BSAHEADER_FILEID">MW_BSAHEADER_FILEID</a></li><li><a href="module-bsa_constants.html#.OB_BSAARCHIVE_COMPRESSFILES">OB_BSAARCHIVE_COMPRESSFILES</a></li><li><a href="module-bsa_constants.html#.OB_BSAARCHIVE_FILENAMES">OB_BSAARCHIVE_FILENAMES</a></li><li><a href="module-bsa_constants.html#.OB_BSAARCHIVE_PATHNAMES">OB_BSAARCHIVE_PATHNAMES</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_BAT">OB_BSAFILE_BAT</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_CTL">OB_BSAFILE_CTL</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_DDS">OB_BSAFILE_DDS</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_FLAG_COMPRESS">OB_BSAFILE_FLAG_COMPRESS</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_FNT">OB_BSAFILE_FNT</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_HTML">OB_BSAFILE_HTML</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_MP3">OB_BSAFILE_MP3</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_NIF">OB_BSAFILE_NIF</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_SCC">OB_BSAFILE_SCC</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_SIZEMASK">OB_BSAFILE_SIZEMASK</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_SPT">OB_BSAFILE_SPT</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_TEX">OB_BSAFILE_TEX</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_TXT">OB_BSAFILE_TXT</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_WAV">OB_BSAFILE_WAV</a></li><li><a href="module-bsa_constants.html#.OB_BSAFILE_XML">OB_BSAFILE_XML</a></li><li><a href="module-bsa_constants.html#.OB_BSAHEADER_FILEID">OB_BSAHEADER_FILEID</a></li><li><a href="module-bsa_constants.html#.OB_BSAHEADER_VERSION">OB_BSAHEADER_VERSION</a></li><li><a href="module-bsa_constants.html#.SSE_BSAHEADER_VERSION">SSE_BSAHEADER_VERSION</a></li></ul></div></li><li><a href="module-bsa_nullstr.html">bsa/nullstr</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/nullstr_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa_nullstr.html#~nullstr">nullstr</a></li></ul></div></li><li><a href="module-bsa_read.html">bsa/read</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/read_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa_read.html#~folder">folder</a></li><li><a href="module-bsa_read.html#~header">header</a></li><li><a href="module-bsa_read.html#~tree">tree</a></li></ul></div></li><li><a href="module-bsa_split.html">bsa/split</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/split_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa_split.html#~split">split</a></li></ul></div></li><li><a href="module-bsa_write.html">bsa/write</a><button type="button" class="hidden toggle-subnav btn btn-link">  <span class="glyphicon glyphicon-plus"></span></button><div class="hidden" id="module:bsa/write_sub"><div class="member-type">Methods</div><ul class="inner"><li><a href="module-bsa_write.html#~file">file</a></li><li><a href="module-bsa_write.html#~folder">folder</a></li></ul></div></li></ul></div>
+</nav>
+<div id="resizer"></div>
+
+<div class="main" id="main">
+    
+
+
+
+
+<section>
+
+<header>
+    
+        <h2>bsa/constants</h2>
+        
+            
+        
+    
+</header>
+
+<article>
+    
+        <div class="container-overview">
+        
+            
+                <div class="description"><p>Bethesda Softworks Archive Constants</p></div>
+            
+
+            
+                
+
+<dt>
+    
+</dt>
+<dd>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-license">License:</dt>
+    <dd class="tag-license"><ul class="dummy"><li>The MIT License (MIT)
+
+Copyright (c) 2015 Dmitry Tsvettsikh
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</li></ul></dd>
+    
+
+    
+
+    
+
+    
+    <dt class="tag-see">See:</dt>
+    <dd class="tag-see">
+        <ul>
+            <li><a href="https://github.com/jonwd7/bae/blob/4353062c86a10ce2a71045f34250148c94c44fad/src/bsa.h#L17-L51">https://github.com/jonwd7/bae/blob/4353062c86a10ce2a71045f34250148c94c44fad/src/bsa.h#L17-L51</a></li>
+        </ul>
+    </dd>
+    
+
+    
+</dl>
+
+
+    
+
+</dd>
+
+            
+        
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <h3 class="subsection-title">Members</h3>
+
+        <dl>
+            
+
+<dt>
+<h4 class="name" id=".F3_BSAARCHIVE_PREFIXFULLFILENAMES">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>F3_BSAARCHIVE_PREFIXFULLFILENAMES<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line102">line 102</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Whether the name is prefixed to the data?</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>256</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".F3_BSAHEADER_VERSION">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>F3_BSAHEADER_VERSION<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line62">line 62</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Version number of a Fallout 3 BSA.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>104</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".F4_BSAHEADER_FILEID">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>F4_BSAHEADER_FILEID<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line49">line 49</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Magic for Fallout 4 BA2, the literal string &quot;BTDX&quot;.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>1480873026</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".F4_BSAHEADER_VERSION">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>F4_BSAHEADER_VERSION<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line74">line 74</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Version number of a Fallout 4 BA2.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>1</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".MW_BSAHEADER_FILEID">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>MW_BSAHEADER_FILEID<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line37">line 37</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Magic for Morrowind BSA.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>256</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAARCHIVE_COMPRESSFILES">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAARCHIVE_COMPRESSFILES<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line96">line 96</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Whether the files are compressed.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>4</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAARCHIVE_FILENAMES">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAARCHIVE_FILENAMES<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line90">line 90</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Whether the BSA has names for files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>2</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAARCHIVE_PATHNAMES">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAARCHIVE_PATHNAMES<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line84">line 84</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Whether the BSA has names for paths.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>1</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_BAT">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_BAT<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line146">line 146</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains BAT files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>32</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_CTL">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_CTL<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line171">line 171</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains CTL files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>256</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_DDS">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_DDS<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line116">line 116</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains DDS files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>2</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_FLAG_COMPRESS">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_FLAG_COMPRESS<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line189">line 189</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Bit mask to get the compression status.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>3221225472</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_FNT">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_FNT<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line166">line 166</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains FNT files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>128</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_HTML">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_HTML<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line141">line 141</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains HTML files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>32</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_MP3">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_MP3<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line131">line 131</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains MP3 files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>16</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_NIF">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_NIF<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line111">line 111</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains NIF files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>1</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_SCC">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_SCC<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line151">line 151</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains SCC files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>32</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_SIZEMASK">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_SIZEMASK<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line180">line 180</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Bit mask to get the size of the file.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>1073741823</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_SPT">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_SPT<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line156">line 156</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains SPT files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>64</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_TEX">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_TEX<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line161">line 161</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains TEX files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>128</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_TXT">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_TXT<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line136">line 136</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains TXT files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>32</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_WAV">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_WAV<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line126">line 126</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains WAV files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>8</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAFILE_XML">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAFILE_XML<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line121">line 121</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Set when the BSA contains XML files.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>4</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAHEADER_FILEID">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAHEADER_FILEID<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line43">line 43</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Magic for Oblivion BSA, the literal string &quot;BSA\0&quot;.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>4281154</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".OB_BSAHEADER_VERSION">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>OB_BSAHEADER_VERSION<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line56">line 56</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Version number of an Oblivion BSA.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>103</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        
+            
+
+<dt>
+<h4 class="name" id=".SSE_BSAHEADER_VERSION">
+    <span class="type-signature"><span class="icon green">static</span>, <span class="icon green">constant</span> </span>SSE_BSAHEADER_VERSION<span class="type-signature"> :Number</span>
+    
+    <div class="container-source members">
+        <code><a href="lib_constants.js.html">lib/constants.js</a></code>,
+        <code><a href="lib_constants.js.html#line68">line 68</a></code>
+    </div>
+    
+</h4>
+
+
+</dt>
+<dd>
+    
+    <div class="description">
+        <p>Version number of a Skyrim SE BSA.</p>
+    </div>
+    
+
+    <!--
+    
+        <h5>Type:</h5>
+        <ul>
+            <li>
+                
+<span class="param-type">Number</span>
+
+
+            </li>
+        </ul>
+    
+    -->
+
+    
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <dt class="tag-default">Default Value:</dt>
+    <dd class="tag-default"><ul class="dummy">
+            <li>105</li>
+        </ul></dd>
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+    
+
+    
+</dd>
+
+        </dl>
+    
+
+    
+
+    
+
+    
+</article>
+
+</section>
+
+
+
+
+</div>
+
+<footer>
+    <img class="logo" src="img/toast-ui.png" style="">
+    <div class="footer-text">Testy</div>
+</footer>
+<script>prettyPrint();</script>
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/tui-doc.js"></script>
+<script src="scripts/linenumber.js"></script>
+
+    <script>
+        var id = 'module:bsa/constants_sub'.replace(/"/g, '_');
+        var selectedApi = document.getElementById(id); // do not use jquery selector
+        var $selectedApi = $(selectedApi);
+
+        $selectedApi.removeClass('hidden');
+        $selectedApi.parent().find('.glyphicon').removeClass('glyphicon-plus').addClass('glyphicon-minus');
+        showLnbApi();
+    </script>
+
+</body>
+</html>
