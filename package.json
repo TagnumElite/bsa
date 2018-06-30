@@ -1,7 +1,7 @@
 {
   "name": "bsa",
   "version": "0.1.0",
-  "description": "Bethesda Softworks Archive compress/decompress",
+  "description": "Bethesda Softworks Archive CLI (de)compressor",
   "main": "index.js",
   "repository": {
     "url": "reklatsmasters/bsa",
@@ -15,9 +15,7 @@
   "engines": {
     "node": ">=4"
   },
-  "bin": {
-    "bsa": "./bin/bsa.js"
-  },
+  "bin": "./bin/bsa.js",
   "dependencies": {
     "argparse": "^1.0.9",
     "co": "^4.6.0",
@@ -26,5 +24,9 @@
   },
   "scripts": {
     "test": "ava test/*.js"
-  }
+  },
+  "keywords": [
+    "cli",
+    "bethesda"
+  ]
 }

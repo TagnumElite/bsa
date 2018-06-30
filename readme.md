@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/npm/l/bsa.svg)](https://npmjs.org/package/bsa)
 [![downloads](https://img.shields.io/npm/dm/bsa.svg)](https://npmjs.org/package/bsa)
 
-Bethesda Softworks Archive compress/decompress
+Bethesda Softworks Archive CLI (de)compressor
 
 ## Usage
 
