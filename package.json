@@ -20,7 +20,7 @@
     "argparse": "^1.0.9",
     "co": "^4.6.0",
     "mkdirp": "^0.5.1",
-    "pify": "^2.3.0"
+    "pify": "^4.0.1"
   },
   "scripts": {
     "test": "ava test/*.js"
