@@ -10,7 +10,7 @@
   "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.25.0"
   },
   "engines": {
     "node": ">=4"
