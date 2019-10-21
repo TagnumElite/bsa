@@ -24,7 +24,7 @@
     "tui-jsdoc-template": "^1.2.2"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "bin": {
     "bsa": "./bin/bsa.js"
@@ -39,7 +39,7 @@
     "pify": "^2.3.0"
   },
   "scripts": {
-    "test": "ava test/*.js",
+    "test": "ava",
     "docs": "jsdoc --configure .jsdoc.json",
     "prettier": "prettier --write **/*.js **/*.json"
   },
@@ -49,5 +49,11 @@
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
+  },
+  "ava": {
+    "files": [
+      "test/**/*"
+    ],
+    "verbose": true
   }
 }
