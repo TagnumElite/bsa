@@ -1,0 +1,27 @@
+{
+  "plugins": ["plugins/markdown"],
+  "recurseDepth": 10,
+  "source": {
+    "include": ["index.js", "lib/"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "sourceType": "module",
+  "tags": {
+    "allowUnknownTags": true,
+    "dictionaries": ["jsdoc", "closure"]
+  },
+  "opts": {
+    "template": "node_modules/tui-jsdoc-template",
+    "destination": "./docs/",
+    "package": "./package.json",
+    "readme": "./readme.md"
+  },
+  "templates": {
+    "cleverLinks": true,
+    "monospaceLinks": true,
+    "logo": {},
+    "name": "BSA Documentation",
+    "footerText": "Testy"
+  }
+}

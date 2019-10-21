@@ -8,9 +8,20 @@
     "type": "git"
   },
   "author": "Dmitry Tsvettsikh <me@reklatsmasters.com>",
+  "contributors": [
+    "Tagan Hoyle <tagnumelite@elitekast.com> (https://tagnumelite.com)"
+  ],
+  "directories": {
+    "lib": "./lib",
+    "test": "./test",
+    "bin": "./bin"
+  },
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^2.4.0",
+    "jsdoc": "^3.6.3",
+    "prettier": "^1.18.2",
+    "tui-jsdoc-template": "^1.2.2"
   },
   "engines": {
     "node": ">=4"
@@ -20,11 +31,23 @@
   },
   "dependencies": {
     "argparse": "^1.0.9",
+    "bufio": "^0.2.0",
+    "chalk": "^2.4.1",
     "co": "^4.6.0",
+    "lz4": "^0.6.3",
     "mkdirp": "^0.5.1",
     "pify": "^2.3.0"
   },
   "scripts": {
-    "test": "ava test/*.js"
+    "test": "ava test/*.js",
+    "docs": "jsdoc --configure .jsdoc.json",
+    "prettier": "prettier --write **/*.js **/*.json"
+  },
+  "keywords": [
+    "cli",
+    "bethesda"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
