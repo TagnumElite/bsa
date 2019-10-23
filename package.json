@@ -41,7 +41,8 @@
   "scripts": {
     "test": "ava",
     "docs": "jsdoc --configure .jsdoc.json",
-    "prettier": "prettier --write **/*.js **/*.json"
+    "prettier": "prettier --write **/*.js **/*.json",
+    "docker:build": "docker build -t tagnumelite/bsa:latest ."
   },
   "keywords": [
     "cli",
